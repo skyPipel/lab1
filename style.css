@@ -1,0 +1,228 @@
+/* =========================
+   RESET
+========================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* =========================
+   BODY
+========================= */
+body{
+    font-family: Arial, sans-serif;
+
+    background: linear-gradient(
+        135deg,
+        #1e3a8a,
+        #2563eb,
+        #38bdf8
+    );
+
+    color: white;
+
+    padding: 30px;
+}
+
+/* =========================
+   HEADER
+========================= */
+.header{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* =========================
+   FOTO PROFIL
+========================= */
+.foto-wrapper{
+
+    width: 180px;
+    height: 180px;
+
+    margin: auto;
+    margin-bottom: 20px;
+
+    background: orange;
+
+    border-radius: 40% 60% 55% 45%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+}
+
+.foto-profil{
+
+    width: 150px;
+    height: 150px;
+
+    object-fit: cover;
+
+    border-radius: 50% 45% 55% 40%;
+
+    border: 4px solid white;
+}
+
+/* =========================
+   TEXT HEADER
+========================= */
+.nama{
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.jurusan{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.kampus{
+    font-size: 18px;
+    color: #dbeafe;
+    margin-bottom: 25px;
+}
+
+/* =========================
+   NAVIGASI
+========================= */
+.navigasi a{
+
+    text-decoration: none;
+
+    color: white;
+
+    margin: 10px;
+    padding: 10px 18px;
+
+    border: 2px solid white;
+    border-radius: 12px;
+
+    display: inline-block;
+
+    transition: 0.3s;
+}
+
+.navigasi a:hover{
+
+    background: white;
+    color: #2563eb;
+}
+
+/* =========================
+   CONTAINER
+========================= */
+.container{
+
+    width: 85%;
+    max-width: 900px;
+
+    margin: auto;
+}
+
+/* =========================
+   CARD / SECTION
+========================= */
+.card{
+
+    border: 3px solid white;
+
+    border-radius: 25px;
+
+    padding: 30px;
+
+    margin-bottom: 30px;
+
+    background: rgba(255,255,255,0.12);
+
+    backdrop-filter: blur(10px);
+
+    text-align: center;
+}
+
+/* =========================
+   JUDUL
+========================= */
+.card h2{
+
+    font-size: 34px;
+
+    margin-bottom: 20px;
+}
+
+.card h3{
+
+    font-size: 24px;
+
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+/* =========================
+   ISI TENTANG
+========================= */
+.isi-tentang{
+
+    font-size: 22px;
+
+    line-height: 1.8;
+}
+
+/* =========================
+   LIST
+========================= */
+ul,
+ol{
+
+    font-size: 20px;
+
+    line-height: 2;
+
+    display: inline-block;
+
+    text-align: left;
+}
+
+/* =========================
+   BLOCKQUOTE
+========================= */
+blockquote{
+
+    margin: 20px 0;
+
+    padding: 20px;
+
+    border-left: 5px solid orange;
+
+    background: rgba(255,255,255,0.1);
+
+    border-radius: 15px;
+
+    font-style: italic;
+}
+
+/* =========================
+   LINK
+========================= */
+a{
+    color: #fde68a;
+}
+
+a:hover{
+    color: white;
+}
+
+/* =========================
+   FOOTER
+========================= */
+.footer{
+
+    text-align: center;
+
+    margin-top: 30px;
+
+    font-size: 18px;
+}
